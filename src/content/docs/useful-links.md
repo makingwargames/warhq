@@ -1,0 +1,19 @@
+---
+title: Useful Links
+description: External links for WarHQ users.
+---
+
+## WarHQ
+
+- [Download WarHQ](http://bit.ly/48F2XiI)
+- [Email support](mailto:makingwargames@gmail.com)
+
+## Wargame Design Studio
+
+- [Wargame Design Studio](https://wargameds.com/)
+- [WDS store](https://wargameds.com/collections)
+- [WDS blog](https://wargameds.com/blogs/news)
+
+## Community
+
+- [WarHQ Discord](https://discord.gg/rCpZwWJExb)

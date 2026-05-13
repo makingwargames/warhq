@@ -1,0 +1,42 @@
+---
+title: WarHQ Help
+description: Tutorials, troubleshooting, and useful links for WarHQ.
+template: splash # Remove or comment out this line to display the site sidebar on this page.
+hero:
+  tagline: Tutorials, troubleshooting, and useful links for WarHQ.
+  actions:
+    - text: Quick Start
+      link: quick-start/
+      icon: right-arrow
+    - text: Troubleshooting
+      link: troubleshooting/
+      icon: open-book
+      variant: minimal
+---
+
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## Start here
+
+<CardGrid stagger>
+	<LinkCard
+		title="Install and launch"
+		href="quick-start/"
+		description="Get WarHQ installed, find your WDS games, and open the Library."
+	/>
+	<LinkCard
+		title="WarMatch"
+		href="tutorials/warmatch/"
+		description="Find opponents, manage cloud games, and exchange PBEM turns."
+	/>
+	<LinkCard
+		title="PBEM Box"
+		href="tutorials/pbem-box/"
+		description="Import received turns, prepare email drafts, and manage local PBEM files."
+	/>
+	<LinkCard
+		title="Support"
+		href="troubleshooting/"
+		description="Check common fixes and collect diagnostics before reporting an issue."
+	/>
+</CardGrid>
