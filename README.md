@@ -1,4 +1,4 @@
-# WarHQ Help Site
+# WarHQ Site
 
 This folder contains the public WarHQ help site built with Astro Starlight.
 
@@ -50,7 +50,7 @@ After the workflow is committed and pushed:
 1. Open the GitHub repository.
 2. Go to **Settings > Pages**.
 3. Set **Build and deployment > Source** to **GitHub Actions**.
-4. Run the **Deploy WarHQ Help to GitHub Pages** workflow or push to `main`.
+4. Run the **Deploy WarHQ to GitHub Pages** workflow or push to `main`.
 
 Default published URL:
 

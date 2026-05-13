@@ -1,4 +1,4 @@
-name: Deploy WarHQ Help to GitHub Pages
+name: Deploy WarHQ to GitHub Pages
 
 on:
   push:

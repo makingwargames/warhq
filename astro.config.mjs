@@ -8,7 +8,8 @@ export default defineConfig({
 	base: '/warhq',
 	integrations: [
 		starlight({
-			title: 'WarHQ Help',
+			title: 'WarHQ',
+			customCss: ['./src/styles/custom.css'],
 			sidebar: [
 				{
 					label: 'Start Here',

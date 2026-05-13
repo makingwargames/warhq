@@ -1,0 +1,10 @@
+@layer starlight.overrides {
+	.hero .actions {
+		align-items: center;
+	}
+
+	.hero .actions .sl-link-button {
+		justify-content: center;
+		min-height: 3.5rem;
+	}
+}
