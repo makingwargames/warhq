@@ -32,6 +32,13 @@ export default defineConfig({
 						{ label: 'Release Notes', slug: 'release-notes' },
 					],
 				},
+				{
+					label: 'Legal',
+					items: [
+						{ label: 'Privacy Policy', slug: 'privacy' },
+						{ label: 'Terms of Service', slug: 'terms' },
+					],
+				},
 			],
 		}),
 	],
