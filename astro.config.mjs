@@ -4,8 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://makingwargames.github.io',
-	base: '/warhq',
+	site: 'https://warhq.net',
 	integrations: [
 		starlight({
 			title: 'WarHQ',
