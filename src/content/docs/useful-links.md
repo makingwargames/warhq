@@ -5,7 +5,7 @@ description: External links for WarHQ users.
 
 ## WarHQ
 
-- [Download WarHQ](http://bit.ly/48F2XiI)
+- [Download WarHQ](https://github.com/makingwargames/warhq/releases)
 - [Email support](mailto:makingwargames@gmail.com)
 
 ## Wargame Design Studio
