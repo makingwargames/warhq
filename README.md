@@ -1,6 +1,6 @@
-# WarHQ Site
+# WarHQ Website
 
-This folder contains the public WarHQ help site built with Astro Starlight.
+This repository contains the public WarHQ website and help docs built with Astro Starlight.
 
 ## Local Editing
 
@@ -14,10 +14,8 @@ npm run dev
 The local site is served at:
 
 ```text
-http://localhost:4321/warhq/
+http://localhost:4321/
 ```
-
-The `/warhq/` path is intentional because this repository deploys as a GitHub Pages project site.
 
 ## Content
 
@@ -41,6 +39,18 @@ npm run build
 
 The generated site is written to `dist/`, which is ignored by git. GitHub Actions builds it again during deployment.
 
+Static files that must be served from the site root live in:
+
+```text
+public/
+```
+
+The Microsoft identity association file is published from:
+
+```text
+public/.well-known/microsoft-identity-association.json
+```
+
 ## GitHub Pages Deployment
 
 The workflow at `.github/workflows/deploy.yml` builds this folder and deploys it to GitHub Pages.
@@ -52,10 +62,8 @@ After the workflow is committed and pushed:
 3. Set **Build and deployment > Source** to **GitHub Actions**.
 4. Run the **Deploy WarHQ to GitHub Pages** workflow or push to `main`.
 
-Default published URL:
+Published URL:
 
 ```text
-https://makingwargames.github.io/warhq/
+https://warhq.net/
 ```
-
-For a custom domain later, add `public/CNAME`, update `site` in `astro.config.mjs`, and remove the `base` setting.

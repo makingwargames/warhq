@@ -3,6 +3,8 @@ title: Quick Start
 description: First steps for installing WarHQ and opening your WDS game library.
 ---
 
+WarHQ is a Windows companion app for Wargame Design Studio players. It discovers installed WDS titles, launches games from a single Library, and supports PBEM workflows through WarMatch or PBEM Box.
+
 Use this page when you want the shortest reliable path from download to your first launched game or PBEM turn.
 
 ## Before you start
@@ -41,7 +43,7 @@ Success looks like your WDS series in the left sidebar and game rows in the main
 | Goal | Use | Start here |
 | --- | --- | --- |
 | Find opponents and exchange supported turns through the cloud | WarMatch | [WarMatch tutorial](../tutorials/warmatch/) |
-| Manage local save files and email drafts yourself | PBEM Box | [PBEM Box tutorial](../tutorials/pbem-box/) |
+| Manage local save files, mail imports, and email drafts yourself | PBEM Box | [PBEM Box tutorial](../tutorials/pbem-box/) |
 | Just launch and play installed WDS games | Library | Stay on this page |
 
 ## First five-minute checklist

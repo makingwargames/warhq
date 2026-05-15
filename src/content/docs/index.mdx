@@ -1,12 +1,12 @@
 ---
 title: WarHQ
-description: Tutorials, troubleshooting, and useful links for WarHQ.
+description: A Windows companion app for Wargame Design Studio players.
 template: splash # Remove or comment out this line to display the site sidebar on this page.
 head:
   - tag: title
     content: WarHQ
 hero:
-  tagline: Tutorials, troubleshooting, and useful links for WarHQ.
+  tagline: A Windows companion app for Wargame Design Studio players.
   actions:
     - text: Quick Start
       link: quick-start/
@@ -19,23 +19,25 @@ hero:
 
 import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 
+WarHQ finds your installed Wargame Design Studio titles, gives you one library for launching games, and helps manage PBEM play with WarMatch cloud games or PBEM Box for local email turn handling.
+
 ## Start here
 
 <CardGrid>
 	<LinkCard
 		title="Install and launch"
 		href="quick-start/"
-		description="Get WarHQ installed, find your WDS games, and open the Library."
+		description="Install WarHQ, discover your WDS titles, and launch games from one Library."
 	/>
 	<LinkCard
 		title="WarMatch"
 		href="tutorials/warmatch/"
-		description="Find opponents, manage cloud games, and exchange PBEM turns."
+		description="Find opponents, coordinate cloud games, and exchange supported PBEM turns."
 	/>
 	<LinkCard
 		title="PBEM Box"
 		href="tutorials/pbem-box/"
-		description="Import received turns, prepare email drafts, and manage local PBEM files."
+		description="Import received turns, assign opponents, and prepare email drafts."
 	/>
 	<LinkCard
 		title="Support"
