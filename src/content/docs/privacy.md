@@ -3,7 +3,7 @@ title: Privacy Policy
 description: How WarHQ handles local data, mail access, and WarMatch cloud data.
 ---
 
-Last updated: May 14, 2026
+Last updated: May 16, 2026
 
 WarHQ is a desktop utility for managing Wargame Design Studio game launches, local PBEM files, and optional WarMatch multiplayer features.
 
@@ -30,13 +30,24 @@ WarHQ does not send Gmail messages automatically. WarHQ does not delete, archive
 
 For Microsoft mail, WarHQ uses Microsoft Graph delegated OAuth permissions to perform the same PBEM attachment scan and draft creation workflow for Microsoft 365 or Outlook.com mailboxes.
 
+## Data Protection and Security
+
+WarHQ uses technical and procedural safeguards to protect sensitive data, including Google user data:
+
+- Mail OAuth tokens are stored locally under your Windows user profile and are protected with Windows user-level encryption where supported.
+- Local WarHQ files are stored under your Windows user profile and are protected by your operating system's user account access controls.
+- Network requests to Google, Microsoft, and WarMatch services use HTTPS/TLS.
+- Gmail message searches, attachment selection, and PBEM import decisions are handled by the WarHQ app on your device. WarHQ does not store Gmail message bodies or Gmail attachments on WarMatch servers.
+- WarHQ accesses Gmail data only for the mail features you enable and only with the OAuth scopes you authorize.
+- Support logs are intended for troubleshooting and should not include OAuth tokens, Gmail message bodies, or Gmail attachment contents. Do not send support any sensitive file or message content unless it is necessary for your support request.
+
 ## WarMatch Cloud Features
 
 If you sign in to WarMatch, WarHQ sends the information needed to provide multiplayer features, such as account identity, match metadata, chat messages, LFG posts, and uploaded turn files. Uploaded turn files are used only to deliver WarMatch gameplay features to the intended players.
 
 ## Data Sharing
 
-WarHQ does not sell personal information. WarHQ does not share Gmail or Microsoft mail data with third parties except as necessary to provide the user-requested mail integration through Google or Microsoft APIs.
+WarHQ does not sell personal information. WarHQ does not sell, rent, or transfer Google user data to advertising platforms, data brokers, information resellers, or other third parties. WarHQ does not share Gmail or Microsoft mail data with third parties except as necessary to provide the user-requested mail integration through Google or Microsoft APIs.
 
 ## Retention and Deletion
 

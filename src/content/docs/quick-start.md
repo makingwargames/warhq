@@ -18,7 +18,7 @@ You need:
 
 ## Install WarHQ
 
-1. Download the latest installer: [Download WarHQ](https://github.com/makingwargames/warhq/releases).
+1. Download the WarHQ: [Download WarHQ](https://github.com/makingwargames/warhq/releases/latest/download/WarHQ.exe).
 2. Run the installer.
 3. Open WarHQ from the Start menu or desktop shortcut.
 

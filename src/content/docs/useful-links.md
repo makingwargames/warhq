@@ -6,7 +6,7 @@ description: External links for WarHQ users.
 ## WarHQ
 
 - [WarHQ website](https://warhq.net/)
-- [Download WarHQ](https://github.com/makingwargames/warhq/releases)
+- [Download WarHQ](https://github.com/makingwargames/warhq/releases/latest/download/WarHQ.exe)
 - [Privacy Policy](../privacy/)
 - [Terms of Service](../terms/)
 - [Email support](mailto:makingwargames@gmail.com)
