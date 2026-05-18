@@ -17,6 +17,8 @@ PBEM Box shows the game, filename, scenario, turn number, last modified time, op
 
 Use **Import Turn** when you want to browse for a received file manually.
 
+![Import Turn dialog showing detected destination, editable Copy to path, opponent selection, and open-after-import option.](../../../assets/screenshots/warhq-pbem-import-turn.png)
+
 1. Open PBEM Box from the Library toolbar.
 2. Click **Import Turn**.
 3. Choose the received `.bte` or `.cpf` file.
@@ -62,6 +64,8 @@ When you launch a game from PBEM Box, WarHQ watches for a newly completed turn a
 
 When WarHQ prepares an outgoing email, it asks Windows to open your default email app using `mailto:`. WarHQ can fill in the recipient, subject, and message body, but `mailto:` cannot attach files automatically.
 
+![Prepare Email dialog showing the recipient, attachment filename, and mail helper message.](../../../assets/screenshots/warhq-pbem-prepare-email.png)
+
 To make attaching the turn easier, WarHQ can:
 
 - Copy the completed turn file to the clipboard so you can paste it into the email draft.
@@ -73,6 +77,8 @@ If Windows has no default email app configured for `mailto:`, WarHQ shows a warn
 ## PBEM preferences
 
 Open **Preferences > PBEM** to adjust PBEM Box helpers.
+
+![PBEM preferences showing opponent management and mail helper checkboxes.](../../../assets/screenshots/warhq-pbem-preferences.png)
 
 - Disable opening File Explorer if you do not want WarHQ to show the completed turn file after preparing mail.
 - Disable copying the file to the clipboard if you prefer to attach files manually.
