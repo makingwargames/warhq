@@ -1,45 +1,43 @@
 ---
 title: Privacy Policy
-description: How WarHQ handles local data, mail access, and WarMatch cloud data.
+description: How WarHQ handles local data, PBEM Box helper data, and WarMatch cloud data.
 ---
 
-Last updated: May 16, 2026
+Last updated: May 18, 2026
 
-WarHQ is a desktop utility for managing Wargame Design Studio game launches, local PBEM files, and optional WarMatch multiplayer features.
+WarHQ is a desktop utility for managing Wargame Design Studio game launches, local PBEM files, default mail app draft assistance, and optional WarMatch multiplayer features.
 
 ## Information Stored Locally
 
-WarHQ stores local application data on your computer under your Windows user profile, including preferences, game library state, PBEM opponent/profile data, mail OAuth tokens, and logs. OAuth tokens are protected with Windows user-level encryption where supported.
+WarHQ stores local application data on your computer under your Windows user profile, including preferences, game library state, PBEM opponent/profile data, imported-turn history, and logs.
 
-## Gmail and Microsoft Mail Access
+PBEM opponent/profile data can include opponent names, email addresses, filename aliases, match assignments, and information WarHQ uses to recognize related local PBEM files.
 
-If you enable mail integration, WarHQ uses OAuth to connect to the mail provider you configure.
+## PBEM Box and Email Drafts
 
-For Gmail, WarHQ requests:
+PBEM Box is a local/manual PBEM workflow. It scans local WDS save folders for supported PBEM files, imports received `.bte` and `.cpf` files when you choose to import them, and helps prepare outgoing email drafts through Windows.
 
-- `https://www.googleapis.com/auth/gmail.readonly`
-- `https://www.googleapis.com/auth/gmail.compose`
+Current PBEM Box email help uses Windows `mailto:` handling. WarHQ does not require direct access to your mail account for PBEM Box.
 
-WarHQ uses Gmail access only to:
+For PBEM Box email drafts, WarHQ can:
 
-- Search recent inbox messages for `.bte` and `.cpf` PBEM turn attachments.
-- Download selected PBEM turn attachments to a local staging folder before import.
-- Create Gmail drafts with a PBEM turn file attached.
+- Ask Windows to open your default email app.
+- Fill in draft fields such as recipient, subject, and message text.
+- Copy the completed turn file to the clipboard so you can paste it into the draft.
+- Open File Explorer with the completed turn file selected so you can drag it into the draft.
 
-WarHQ does not send Gmail messages automatically. WarHQ does not delete, archive, label, modify, or mark Gmail messages as read. WarHQ does not use Gmail data for advertising, analytics, profiling, or model training.
+WarHQ does not read your inbox for PBEM Box. WarHQ does not download email attachments from your mailbox. WarHQ does not attach files directly through a mail provider API. WarHQ does not send email automatically.
 
-For Microsoft mail, WarHQ uses Microsoft Graph delegated OAuth permissions to perform the same PBEM attachment scan and draft creation workflow for Microsoft 365 or Outlook.com mailboxes.
+Your default email app or email provider handles the draft after Windows opens it. Review the message and attachments before sending.
 
 ## Data Protection and Security
 
-WarHQ uses technical and procedural safeguards to protect sensitive data, including Google user data:
+WarHQ uses technical and procedural safeguards to protect local and cloud data:
 
-- Mail OAuth tokens are stored locally under your Windows user profile and are protected with Windows user-level encryption where supported.
 - Local WarHQ files are stored under your Windows user profile and are protected by your operating system's user account access controls.
-- Network requests to Google, Microsoft, and WarMatch services use HTTPS/TLS.
-- Gmail message searches, attachment selection, and PBEM import decisions are handled by the WarHQ app on your device. WarHQ does not store Gmail message bodies or Gmail attachments on WarMatch servers.
-- WarHQ accesses Gmail data only for the mail features you enable and only with the OAuth scopes you authorize.
-- Support logs are intended for troubleshooting and should not include OAuth tokens, Gmail message bodies, or Gmail attachment contents. Do not send support any sensitive file or message content unless it is necessary for your support request.
+- PBEM Box file detection, opponent matching, and import decisions are handled by the WarHQ app on your device.
+- Network requests to WarMatch services use HTTPS/TLS.
+- Support logs are intended for troubleshooting and should not include private message bodies or PBEM file contents. Do not send support any sensitive file or message content unless it is necessary for your support request.
 
 ## WarMatch Cloud Features
 
@@ -47,11 +45,15 @@ If you sign in to WarMatch, WarHQ sends the information needed to provide multip
 
 ## Data Sharing
 
-WarHQ does not sell personal information. WarHQ does not sell, rent, or transfer Google user data to advertising platforms, data brokers, information resellers, or other third parties. WarHQ does not share Gmail or Microsoft mail data with third parties except as necessary to provide the user-requested mail integration through Google or Microsoft APIs.
+WarHQ does not sell personal information. WarHQ does not sell, rent, or transfer user data to advertising platforms, data brokers, information resellers, or other third parties.
+
+PBEM Box does not share your mailbox data with WarHQ servers because PBEM Box does not connect to your mailbox. WarMatch cloud features share only the data needed to provide the WarMatch features you choose to use.
 
 ## Retention and Deletion
 
-Local WarHQ data remains on your computer until you delete it or uninstall the app. You can revoke WarHQ's Google access from your Google Account security settings and Microsoft access from your Microsoft account consent settings.
+Local WarHQ data remains on your computer until you delete it or uninstall the app. You can change or clear PBEM Box opponents, aliases, and preferences inside WarHQ.
+
+PBEM Box uses your Windows default email app and does not require revoking mail account access. To change which app opens PBEM Box drafts, change your Windows default email app.
 
 ## Contact
 

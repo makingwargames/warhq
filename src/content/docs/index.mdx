@@ -26,7 +26,7 @@ hero:
 
 import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-WarHQ finds your installed Wargame Design Studio titles, gives you one library for launching games, and helps manage PBEM play with WarMatch cloud games or PBEM Box for local email turn handling.
+WarHQ finds your installed Wargame Design Studio titles, gives you one library for launching games, and helps manage PBEM play. Use PBEM Box for local/manual turn handling with your normal email app, or WarMatch for cloud-backed match coordination.
 
 ## Start here
 
@@ -37,14 +37,14 @@ WarHQ finds your installed Wargame Design Studio titles, gives you one library f
 		description="Install WarHQ, discover your WDS titles, and launch games from one Library."
 	/>
 	<LinkCard
+		title="PBEM Box"
+		href="tutorials/pbem-box/"
+		description="Import received turns, track local PBEM files, assign opponents, and prepare email drafts through your default mail app."
+	/>
+	<LinkCard
 		title="WarMatch"
 		href="tutorials/warmatch/"
 		description="Find opponents, coordinate cloud games, and exchange supported PBEM turns."
-	/>
-	<LinkCard
-		title="PBEM Box"
-		href="tutorials/pbem-box/"
-		description="Import received turns, assign opponents, and prepare email drafts."
 	/>
 	<LinkCard
 		title="Support"
@@ -54,11 +54,11 @@ WarHQ finds your installed Wargame Design Studio titles, gives you one library f
 	<LinkCard
 		title="Privacy Policy"
 		href="privacy/"
-		description="How WarHQ handles local data, mail access, and WarMatch cloud data."
+		description="How WarHQ handles local data, PBEM Box helper data, and optional WarMatch cloud data."
 	/>
 	<LinkCard
 		title="Terms of Service"
 		href="terms/"
-		description="Terms for using WarHQ and optional WarMatch and mail features."
+		description="Terms for using WarHQ, PBEM Box, default mail app drafts, and optional WarMatch features."
 	/>
 </CardGrid>

@@ -45,12 +45,6 @@ Static files that must be served from the site root live in:
 public/
 ```
 
-The Microsoft identity association file is published from:
-
-```text
-public/.well-known/microsoft-identity-association.json
-```
-
 ## GitHub Pages Deployment
 
 The workflow at `.github/workflows/deploy.yml` builds this folder and deploys it to GitHub Pages.

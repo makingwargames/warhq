@@ -25,8 +25,8 @@ export default defineConfig({
 				{
 					label: 'Tutorials',
 					items: [
-						{ label: 'WarMatch', slug: 'tutorials/warmatch' },
 						{ label: 'PBEM Box', slug: 'tutorials/pbem-box' },
+						{ label: 'WarMatch', slug: 'tutorials/warmatch' },
 					],
 				},
 				{
