@@ -1,3 +1,5 @@
+@layer starlight.base, starlight.reset, starlight.core, starlight.content, starlight.components, starlight.utils, starlight.overrides;
+
 @layer starlight.overrides {
 	.hero .actions {
 		align-items: center;
@@ -6,5 +8,18 @@
 	.hero .actions .sl-link-button {
 		justify-content: center;
 		min-height: 3.5rem;
+	}
+
+	@media (min-width: 64rem) {
+		.hero .actions {
+			display: grid;
+			grid-template-columns: repeat(3, max-content);
+			justify-content: flex-start;
+		}
+
+		.hero .actions .hero-discord-action {
+			grid-column: 1 / -1;
+			justify-self: start;
+		}
 	}
 }

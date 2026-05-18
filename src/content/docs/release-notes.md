@@ -22,6 +22,8 @@ This release is focused on PBEM Box for local/manual PBEM turn handling across W
 
 - Imports received turns from the PBEM Box **Import Turn** button.
 - Supports drag-and-drop turn import in PBEM Box with a visible drop overlay for supported files.
+- Monitors a folder you choose, such as Downloads, for new `.bte` and `.cpf` turn files.
+- Waits for watched-folder files to finish writing before opening the PBEM Box import workflow.
 - Detects the likely destination game from save-file contents and existing local PBEM files.
 - Lets you edit the **Copy to** destination before importing.
 - Checks for destination filename conflicts when you click **Import**.
@@ -46,4 +48,4 @@ This release is focused on PBEM Box for local/manual PBEM turn handling across W
 - Opens File Explorer with the completed turn file selected so you can drag it into the draft.
 - Shows status messages in the active WarHQ or PBEM Box window when it copies a file or opens Explorer.
 - Warns if Windows does not have a default email app configured for `mailto:`.
-- Adds PBEM preferences to disable the Explorer helper or clipboard copy helper.
+- Adds PBEM preferences for the watch folder, Explorer helper, and clipboard helper.

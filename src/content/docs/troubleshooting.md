@@ -21,6 +21,14 @@ Use PBEM Box for the clearest drop feedback. Drag one supported file at a time. 
 
 If the green drop overlay does not appear in PBEM Box, confirm that the file extension is supported and that you are not dragging a folder or multiple files.
 
+## The watch folder did not start an import
+
+Open **Preferences > PBEM** and confirm that folder monitoring is enabled and the folder path still exists. WarHQ watches only that one folder, not subfolders.
+
+The watch folder reacts to new or updated `.bte` and `.cpf` files. Existing files already sitting in the folder are not imported automatically, so use **Import Turn** for those.
+
+If the file just downloaded, give it a moment. WarHQ waits until the file is readable and stable before opening PBEM Box.
+
 ## The opponent is not detected
 
 Open **Opponents** in PBEM Box and confirm the opponent has the right email address and filename aliases. If the name in the save filename is shortened, add that shortened value as an alias.

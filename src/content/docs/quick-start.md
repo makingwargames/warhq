@@ -51,7 +51,7 @@ Success looks like your WDS series in the left sidebar and game rows in the main
 PBEM Box does not require signing in to a mail account inside WarHQ. It works with local turn files and asks Windows to open your default email app when it prepares an outgoing draft.
 
 1. Open **PBEM Box** from the Library toolbar.
-2. Click **Import Turn**, or drag one received `.bte` or `.cpf` file onto PBEM Box.
+2. Click **Import Turn**, drag one received `.bte` or `.cpf` file onto PBEM Box, or configure **Preferences > PBEM** to monitor the folder where attachments land.
 3. Confirm the detected destination game and edit **Copy to** if the suggested filename is not what you want.
 4. Choose an existing opponent or create a new opponent when WarHQ asks.
 5. Click **Import**. If the target filename already exists, choose whether to overwrite it or go back and change the destination name.
@@ -64,6 +64,7 @@ PBEM Box does not require signing in to a mail account inside WarHQ. It works wi
 - Your installed WDS titles appear in the Library.
 - At least one game launches from WarHQ.
 - PBEM Box opens and shows your local PBEM files if you use manual PBEM.
+- Your PBEM watch folder opens the import workflow when a new `.bte` or `.cpf` file arrives, if you enabled it.
 - WarHQ can open a draft in your default email app if you use PBEM Box outgoing mail help.
 - WarMatch opens and signs in if you use cloud PBEM.
 

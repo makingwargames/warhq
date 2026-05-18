@@ -46,6 +46,19 @@ If WarHQ does not show the green overlay, check that you are dragging only one `
 
 The main Library can also accept supported turn files, but PBEM Box gives the clearest import feedback.
 
+## Monitor a folder for received turns
+
+If your email app or browser saves attachments to the same place every time, WarHQ can monitor that folder and open the import workflow when a new supported turn arrives.
+
+1. Open **Preferences > PBEM**.
+2. Check **Monitor a folder for received turns**.
+3. Click **Browse...** and choose the folder, such as Downloads or a PBEM attachments folder.
+4. Click **Save**.
+5. Save or move one new `.bte` or `.cpf` file into that folder.
+6. When WarHQ detects the file, confirm the import options in the PBEM Box import dialog.
+
+WarHQ watches only the folder you choose, not your mailbox. Existing files already in the folder are not imported automatically; use **Import Turn** for those. When a browser or email app is still writing a file, WarHQ waits for the file to settle before opening the import dialog.
+
 ## Organize opponents
 
 Open **Opponents** from PBEM Box to manage opponent names, email addresses, and filename aliases.
@@ -80,13 +93,14 @@ Open **Preferences > PBEM** to adjust PBEM Box helpers.
 
 ![PBEM preferences showing opponent management and mail helper checkboxes.](../../../assets/screenshots/warhq-pbem-preferences.png)
 
+- Choose a watch folder if you want WarHQ to monitor a folder for new received turns.
 - Disable opening File Explorer if you do not want WarHQ to show the completed turn file after preparing mail.
 - Disable copying the file to the clipboard if you prefer to attach files manually.
 
 ## Common PBEM Box flow
 
 1. Receive a `.bte` or `.cpf` file from your opponent.
-2. Import it through PBEM Box.
+2. Import it through PBEM Box, drag it onto PBEM Box, or let the watch folder open the import workflow.
 3. Confirm the destination and opponent.
 4. Open the game from PBEM Box.
 5. Play the turn, save, and exit the WDS game.

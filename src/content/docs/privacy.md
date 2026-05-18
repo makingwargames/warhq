@@ -15,7 +15,7 @@ PBEM opponent/profile data can include opponent names, email addresses, filename
 
 ## PBEM Box and Email Drafts
 
-PBEM Box is a local/manual PBEM workflow. It scans local WDS save folders for supported PBEM files, imports received `.bte` and `.cpf` files when you choose to import them, and helps prepare outgoing email drafts through Windows.
+PBEM Box is a local/manual PBEM workflow. It scans local WDS save folders for supported PBEM files, imports received `.bte` and `.cpf` files when you choose to import them, can monitor a local folder you choose for new received turns, and helps prepare outgoing email drafts through Windows.
 
 Current PBEM Box email help uses Windows `mailto:` handling. WarHQ does not require direct access to your mail account for PBEM Box.
 
@@ -27,6 +27,8 @@ For PBEM Box email drafts, WarHQ can:
 - Open File Explorer with the completed turn file selected so you can drag it into the draft.
 
 WarHQ does not read your inbox for PBEM Box. WarHQ does not download email attachments from your mailbox. WarHQ does not attach files directly through a mail provider API. WarHQ does not send email automatically.
+
+If you enable a PBEM watch folder, WarHQ monitors only the local folder path you selected for supported turn files. It does not monitor your email account.
 
 Your default email app or email provider handles the draft after Windows opens it. Review the message and attachments before sending.
 
