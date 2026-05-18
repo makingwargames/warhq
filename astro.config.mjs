@@ -8,6 +8,11 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'WarHQ',
+			logo: {
+				src: './src/assets/warhq-logo.png',
+				alt: 'WarHQ logo',
+			},
+			favicon: '/favicon.ico',
 			customCss: ['./src/styles/custom.css'],
 			sidebar: [
 				{
